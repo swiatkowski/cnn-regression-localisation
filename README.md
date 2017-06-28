@@ -1,3 +1,5 @@
+# CNN Regression for localisation
+
 ## CNN architectures:
 
 ### Full CNN training
@@ -29,4 +31,5 @@ Achieves 0.002 MSE which is worse than when retraining the whole network. Possib
 Faced this issue: https://github.com/tensorflow/tensorflow/issues/6968
 This helped: ```export LD_PRELOAD="/usr/lib/libtcmalloc_minimal.so.4"```
 
+## References
 [1] Levine, S., Pastor, P., Krizhevsky, A., Ibarz, J. and Quillen, D., 2016. Learning hand-eye coordination for robotic grasping with deep learning and large-scale data collection. The International Journal of Robotics Research, p.0278364917710318.
