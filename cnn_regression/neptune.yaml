@@ -1,0 +1,19 @@
+name: CNN Regression 
+project: CNN Regression
+storage: /scratch/jbs47/nomagic/candidate-task1/
+parameters:
+  - name: gpu
+    type: string
+    required: true
+  - name: mode
+    type: string
+    required: true
+  - name: load
+    type: string
+    required: false
+  - name: logdir
+    type: string
+    required: false
+  - name: arch
+    type: string
+    required: false
